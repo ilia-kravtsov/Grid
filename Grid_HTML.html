@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Grid_education</title>
+</head>
+<body>
+    <div class="container">
+        <div class="item header">header</div>
+        <div class="item sidebar">sidebar</div>
+        <div class="item content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente quasi voluptate pariatur id aliquid laborum animi perspiciatis tenetur hic alias nemo corrupti doloribus, nam quam amet harum. Tempore quaerat deserunt dolores commodi. Sequi amet voluptas molestiae alias voluptatem, itaque ad incidunt nam eum, neque ducimus aut reiciendis iure reprehenderit distinctio dignissimos repellendus cupiditate rerum corrupti. Quo sunt vitae enim consequuntur atque maiores culpa deleniti blanditiis ea voluptatem ab, voluptas accusantium optio eligendi earum inventore voluptates velit recusandae deserunt reprehenderit laboriosam beatae distinctio quibusdam illo. Impedit provident numquam quisquam labore facilis illo magnam reprehenderit voluptatum, dolore omnis sed, odit harum ex non exercitationem. Esse suscipit ab voluptates officia soluta illo, magni, harum praesentium assumenda ea quam doloremque cupiditate exercitationem, ipsa mollitia sequi error nemo est! Quae, esse cumque doloribus natus aliquid recusandae? Assumenda sapiente quam harum odit officiis voluptas illum incidunt provident, libero facilis quia? Molestias enim repellendus necessitatibus suscipit voluptatem quisquam molestiae nulla, excepturi voluptatibus deleniti! Cumque magni perferendis qui mollitia, sequi atque excepturi dignissimos harum. Alias quaerat perspiciatis adipisci totam quod officiis obcaecati fugiat illum accusantium natus necessitatibus doloribus facilis, beatae dolore, repudiandae magnam deserunt sunt dolores tempora doloremque! Tempora vero veniam nam aliquid totam nulla voluptates neque iste. Hic odio repellat aspernatur impedit eius reprehenderit deleniti, excepturi sunt, enim neque harum quia delectus qui voluptas. Totam animi doloribus accusantium nesciunt, iste, culpa quis voluptates quidem iure blanditiis dolorem officiis enim. Consectetur eligendi ipsa est assumenda soluta id saepe reiciendis accusantium sapiente eveniet voluptatem corporis distinctio quae illum earum explicabo ipsam debitis, neque beatae tempora dicta omnis maxime doloremque. Eligendi aliquam dignissimos fugiat porro, numquam facilis pariatur quaerat neque culpa necessitatibus omnis, voluptate ex, voluptates voluptas eum. Facere, voluptates voluptatum reiciendis molestiae cumque officiis error veniam magni soluta ab distinctio eum sunt quia aliquam enim, doloremque voluptate eos esse doloribus mollitia provident veritatis laboriosam, ratione impedit. Sit dolore laborum enim quas, aut libero magni dolor officiis in, debitis fugiat! Ipsum repellendus nisi obcaecati quibusdam quas dolores corrupti autem fugit, sunt voluptates corporis rerum culpa accusantium inventore possimus. Aut repudiandae, soluta modi asperiores ea ad sapiente nihil voluptates veniam magnam laudantium? Doloribus mollitia exercitationem dolore molestias atque. Facere non sed, necessitatibus molestiae culpa eius asperiores debitis illo, accusamus laboriosam illum, dolor tenetur dicta? Architecto quae nostrum, facilis recusandae provident autem fugiat corrupti nulla, saepe, voluptate quia ab ad labore fuga odit explicabo dolores sit quasi illo maxime veritatis debitis nisi asperiores cumque. Placeat debitis, accusantium totam sequi quod commodi excepturi dicta, nisi illum enim adipisci expedita. A at eius voluptatibus maxime labore, sapiente ipsum dolorem neque exercitationem nemo? Animi ex neque optio laborum quisquam omnis. Accusantium doloribus provident dolorum, id et aliquam eos magni dicta aliquid, magnam veniam ab praesentium cumque sit voluptatum odit est voluptates! Placeat reprehenderit esse quas ipsa non nesciunt officiis vitae dignissimos ullam obcaecati. Fuga vitae similique rem ad? Cupiditate necessitatibus consectetur libero accusantium sequi magnam veritatis optio earum assumenda magni esse numquam, non dolorem vel harum, iure voluptatem quos labore odit laboriosam, corrupti quasi architecto.</div>
+    </div>
+    <style>
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-areas: 
+            'header header'
+            'sidebar content';
+            grid-gap: 10px;
+            grid-template-columns: 150px 1fr;
+            grid-template-rows: 50px 1fr; 
+        }
+        .item {
+            padding-bottom: 10px;
+            padding-left: 10px;
+            padding-right: 10px;
+            border: 1px solid black;
+        }
+        .header {
+           grid-area: header;
+        }
+
+        .sidebar {
+            grid-area: sidebar;
+            align-self: start;
+        }
+
+        .content {
+            grid-area: content;
+        }
+    </style>
+</body>
+</html>
+
+<!--
+
+<div class="container">
+        <div class="item item_1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita asperiores ullam numquam repellat omnis, fugiat consectetur? Repellendus magni voluptatibus dolor voluptas dignissimos impedit laudantium, mollitia eius numquam iste quo iure illo vitae nisi vel. Obcaecati, maxime neque harum consequatur temporibus incidunt quia eveniet earum. Porro natus, provident id sunt beatae quasi ab inventore nobis odio in! Eius rem corporis eaque et officia ipsam, enim pariatur quo laborum ipsum esse dolorum, eligendi earum nemo nisi necessitatibus tenetur error vitae sint totam atque dolores voluptatibus obcaecati! Cumque, placeat. Facere optio, velit qui quas accusantium eos cupiditate, deleniti fugiat eaque laboriosam id ea!</div>
+        <div class="item item_2">2</div>
+        <div class="item item_3">3</div>
+        <div class="item item_4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem unde necessitatibus esse quaerat tempore quis? Omnis quis inventore facilis doloremque eaque animi fugiat saepe accusamus voluptate repellendus? Perspiciatis aliquam cumque soluta. Soluta repudiandae cumque, vel architecto odit dolorem quisquam cum veritatis iure voluptatibus totam molestias quos expedita minima ipsam corporis hic iusto facilis temporibus enim dolor fuga? Aperiam officia corporis quia beatae veritatis. Dicta ex eligendi voluptatibus repellendus. Doloribus voluptatibus placeat quibusdam dolorum laudantium ipsa unde, repudiandae molestiae. Est id, molestiae corporis reprehenderit non maiores sapiente unde nostrum deserunt eos amet. Architecto, similique minus beatae suscipit laudantium non quis! Ratione!</div>
+        <div class="item item_5">5</div>
+        <div class="item item_6">6</div>
+        <div class="item item_7">7</div>
+        <div class="item item_8">8</div> 
+    </div>  
+    <style>
+        .container {
+            display: grid;
+            grid-template-columns: 400px 400px;
+            grid-gap: 10px;
+            grid-auto-rows: minmax(50px, auto);
+            justify-content: center;
+        }
+        .item {
+            padding: 10px;
+            border: 1px solid black;
+        }
+        .item_3 {
+            grid-column: 1/3;
+            grid-row: 2/5;
+        }
+        .item_7 {
+            grid-column-start: 2;
+            grid-row-start: 1;
+        }
+    </st>
+
+1_____________________ Для родительского элемента пишем:
+
+.parentElement {
+    display: grid;
+}
+
+2_____________________ После этого необходимо задать шаблон, самый основной способ задания шаблона использовать свойство grid-template-columns:
+в нём через пробел слева направо мы указываем размер столбца в нашем шаблоне 1 столбец 50x
+
+.parentElement {
+    display: grid;
+    grid-template-columns: 50px;
+}
+
+Если мы добавим через пробел еще какое либо значение, допустим - grid-template-columns: 50px 50px 50px; - то шаблон будет состоять уже из 3-х колонок
+Размеры колонок мы можем указывать в любых единицах измерения - grid-template-columns: 50% 50% 50%
+
+Но задавать в % не всегда удобно так как мы можем захотеть три равные колонки по 33,(3)% что в сумме не даст 100 а три равные колонки нужны поэтому используем fr 
+grid-template-columns: 1fr 1fr 1fr; or grid-template-columns: repeat(3, 1fr);
+fr - fraction (фракция) фракция является какой-то частью от всего контейнера
+grid-template-columns: 1fr 2fr; 1 колонка будет занимать 1/3 часть род элемента а вторая 2/3 части род элемента
+
+чтобы избежать повторов для создания большого количества колонок 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr
+есть функция repeat(12, 1fr) (первая цифра сколько раз повторять, что повторять размер) 
+
+repeat(12, 1fr 2fr) если указать две или три размерности после запятой то они будут чередоваться 
+
+grid-template-columns: 100px 200px 300px; - помогает создавать шаблон уже с помощью строк а не с помощью столбцов то есть мы можем для конкретных строк задавать конкретрую высоту
+
+grid-column-gap: 10px; - позволяет задать отступы между колонками column
+grid-column-gap: 10%; - позволяет задать отступ между строками
+короткая запись для этих двух свойств
+grid-gap: 10px; - отступы будут как между колонками так и между строками
+
+grid-auto-rows: 110px; - задает размер для тех строк для которых он явно не задан
+
+__ При добавлении текста в один из элементов текст будет вылезать за пределы ячейки можно сделать overflow: scroll;
+Для таких ситуаций предназначена функция grid-auto-rows: minmax(100px, 300px); указываем первым параметром минимальное значение которое должна принимать строка а вторым параметром максимальное
+если вторым параметром указать auto - grid-auto-rows: minmax(100px, auto); - то при добавлении текста не помещающегося в элемент элемент будет расширяться вместе с текстом 
+в зависимости от размера текста
+Если добавить еще больше текста то элементы начнут растягиваться еще больше
+Причем функцию minmax() можно указывать абсолютно во всех свойствах связанных с grid в которых мы указываем размерность как при задании шаблона так и при указании размера строк
+который задается автоматически - grid-auto-rows: minmax(100px, auto);
+
+__ Выравнивание
+Для выравнивания по оси х используется свойство justify-content: - которое принимает след значения: center, start(не flex-start), end.
+justify-content: center; 
+
+Для выравнивания по оси y используется свойство align-content: end, start, center
+
+Выравнивание относительно самой ячейки (по оси y), для этого используется свойство для выравнивания 
+align-items: start; - меньшие элементы выстраиваются к верхней границе пропорционально большей ячейке
+align-items: center; - меньшие элементы выстраиваются к средней границе пропорционально большей ячейке
+align-items: end; - меньшие элементы выстраиваются к нижней границе пропорционально большей ячейке
+
+Выравнивание относительно самой ячейки (по оси х), для этого используется свойство для выравнивания
+justify-items: с аналогичными значениями и эффектом от них
+по дефолту принимает значение stretch
+justify-items: end; - элементы сжались внутри правого края ячейки
+justify-items: center; - элементы сжались внутри по центру ячейки
+justify-items: start; - элементы сжались внутри левого края ячейки
+
+Обращаясь по классу к конкретному элементу мы можем выравнивать относительно ячейки конкретно него
+Для этого используется свойство justify-self: start/center/end; - работает как justify-items (по оси х) Но только для того элемента к которому мы обращаемся
+а для оси у используется свойство align-self: start/center/end; - работает как align-self (по оси y) Но мы работаем с одним элементом
+
+Так же можно управлять на какой строчке находится отдельно взятый элемент в каком столбце какое количество строк или столбцов он занимает
+Для указания с какой колонки должен начинаться тот или иной элемент используется свойство - grid-column-start:;
+Отчет колонок идет слева направо первая колонка - первая обозначает цифру 1 значит элемент начинается с первой колонки
+Чтобы обозначить где элемент заканчивается нужно указать grid-column-end:3; - значит что он закончится на второй колонке то есть в end 3 = 2
+
+Так же мы можем указывать номер строки с которой будет начинаться тот или иной элемент grid-row-start:2;
+И номер строки до которой этот элемент должен располагаться grid-row-end: 5;
+Если заменить на 1 - grid-row-start: 1; то элемент перенесется в начало цепочки элементов 
+
+.item_7 {
+            grid-column-start: 2;
+            grid-row-start: 1;
+        }
+Поместит 7 элемент на место второго
+
+Сокращенная форма для свойств  - grid-column-start: 1; - и - grid-column-end: 3; -> grid-column: 1/3;
+Так же само и для              - grid-row-start: 1; - и - grid-row-end: 3; -> grid-row: 1/3;
+
+Задание специальных областей:
+
+После задания основых элементов мы можем родительскому элементу задаем шаблон и явно указываем области для каждого из созданных блоков 
+grid-template-areas:
+'header header' - header будет растянут на две колонки
+'sidebar content'; - второй строкой в первой колонке будет идти sidebar а в другой content
+После задания шаблона для каждого блока задаем свой класс и привязываем элемент к areas
+для этого используем grid-area с теми свойствами которые мы указали в grid-template-areas
+
+.header {
+    grid-area: header;
+}
+
+.sidebar {
+    grid-area: sidebar;
+}
+
+.content {
+    grid-area: content;
+}
+
+grid-template-rows: 50px 1fr; - первая строка всегда будет 50px а вторая строка всегда будет расширяться причем будет расширяться не только элемент
+content который и будет переполняться и заставлять элемент рашсиряться но и sidebar для того чтобы убрать этот эффект для sidebar 
+задаем align-self: start;
+--> 
